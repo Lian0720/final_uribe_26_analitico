@@ -1,0 +1,7 @@
+id,nombres,apellidos,salario_base,documento,fecha_ingreso,motivo_descarte
+3,Natalia,Quadros Sanchez,3672717.08,A57574412,2025-08-19,empleado_invalido
+6,  Pedro  ,Morales Torres,2992640.91,29171107,2020-05-18,empleado_invalido
+9,Natalia8,Quadros Diaz,1852724.91,60497670,2024-11-30,empleado_invalido
+10,  Camila  ,Sanchez Torres,3758711.01,61871950,2021-11-21,empleado_invalido
+13,  David  ,Torres Diaz,1386525.8,32573848,2016-11-05,empleado_invalido
+16,Alejandra,Castro Rojas,-2188111.7,78529524,2020-04-08,empleado_invalido

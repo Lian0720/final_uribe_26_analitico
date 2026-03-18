@@ -38,9 +38,46 @@ def _normalizar_registros_para_csv(registros):
     return filas
 
 
+def _normalizar_registros_sucios(registros):
+    filas = []
+    for registro in registros:
+        productos = registro.get("productos")
+        if not productos:
+            filas.append(registro)
+            continue
+
+        vendedor = registro.get("vendedor", {})
+        for producto in productos:
+            filas.append(
+                {
+                    "id_venta": registro.get("id"),
+                    "fecha": registro.get("fecha"),
+                    "motivo_descarte": registro.get("motivo_descarte"),
+                    "vendedor_id": vendedor.get("id"),
+                    "vendedor_nombres": vendedor.get("nombres"),
+                    "vendedor_apellidos": vendedor.get("apellidos"),
+                    "vendedor_documento": vendedor.get("documento"),
+                    "id_detalle": producto.get("id_detalle"),
+                    "id_producto": producto.get("id_producto"),
+                    "producto": producto.get("producto"),
+                    "talla": producto.get("talla"),
+                    "cantidad_unitaria": producto.get("cantidad_unitaria"),
+                    "precio_unitario": producto.get("precio_unitario"),
+                    "total_producto": producto.get("total_producto"),
+                    "total_productos_vendidos": registro.get("total_productos_vendidos"),
+                    "total_pagar": registro.get("total_pagar"),
+                }
+            )
+
+    return filas
+
+
 def generar_archivo_csv(registros, nombre_archivo):
     os.makedirs(os.path.dirname(nombre_archivo), exist_ok=True)
-    datos_csv = _normalizar_registros_para_csv(registros)
+    if registros and "motivo_descarte" in registros[0]:
+        datos_csv = _normalizar_registros_sucios(registros)
+    else:
+        datos_csv = _normalizar_registros_para_csv(registros)
     df = pd.DataFrame(datos_csv)
     df.to_csv(nombre_archivo, index=False, encoding="utf-8")
     print(f"Archivo '{nombre_archivo}' generado exitosamente.")
