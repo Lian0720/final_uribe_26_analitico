@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "nombres": "Valentina",
+        "apellidos": "Ruiz Ruiz",
+        "salario_base": 1435036.09,
+        "documento": "85701278",
+        "fecha_ingreso": "2018-03-11"
+    },
+    {
+        "id": 2,
+        "nombres": "Pedro",
+        "apellidos": "Castillo Mendoza",
+        "salario_base": 2571681.28,
+        "documento": "39966881",
+        "fecha_ingreso": "2021-12-05"
+    },
+    {
+        "id": 3,
+        "nombres": "Ana",
+        "apellidos": "Romero Romero",
+        "salario_base": 4198985.53,
+        "documento": "60551548",
+        "fecha_ingreso": "2023-10-11"
+    },
+    {
+        "id": 4,
+        "nombres": "Camila",
+        "apellidos": "Torres Ramirez",
+        "salario_base": 3253348.15,
+        "documento": "46821172",
+        "fecha_ingreso": "2016-07-20"
+    },
+    {
+        "id": 5,
+        "nombres": "Pedro",
+        "apellidos": "Ruiz Mendoza",
+        "salario_base": 3925770.01,
+        "documento": "59409021",
+        "fecha_ingreso": "2017-06-30"
+    },
+    {
+        "id": 6,
+        "nombres": "Andres",
+        "apellidos": "Torres Castillo",
+        "salario_base": 4152510.55,
+        "documento": "99937754",
+        "fecha_ingreso": "2022-12-13"
+    },
+    {
+        "id": 7,
+        "nombres": "David",
+        "apellidos": "Velasquez Quadros",
+        "salario_base": 2125627.37,
+        "documento": "77455507",
+        "fecha_ingreso": "2023-04-25"
+    },
+    {
+        "id": 8,
+        "nombres": "Laura",
+        "apellidos": "Torres Ruiz",
+        "salario_base": 1821763.83,
+        "documento": "42851831",
+        "fecha_ingreso": "2021-06-09"
+    },
+    {
+        "id": 9,
+        "nombres": "Edward",
+        "apellidos": "Hernandez Ruiz",
+        "salario_base": 2128158.16,
+        "documento": "32145144",
+        "fecha_ingreso": "2019-08-19"
+    },
+    {
+        "id": 10,
+        "nombres": "Diego",
+        "apellidos": "Ruiz Romero",
+        "salario_base": 1361840.94,
+        "documento": "81057481",
+        "fecha_ingreso": "2020-05-01"
+    },
+    {
+        "id": 11,
+        "nombres": "Pedro",
+        "apellidos": "Morales Quadros",
+        "salario_base": 3859850.37,
+        "documento": "55953098",
+        "fecha_ingreso": "2019-11-16"
+    },
+    {
+        "id": 12,
+        "nombres": "Sofia",
+        "apellidos": "Hernandez Mendoza",
+        "salario_base": 4177283.17,
+        "documento": "80563138",
+        "fecha_ingreso": "2022-06-18"
+    },
+    {
+        "id": 13,
+        "nombres": "Andres",
+        "apellidos": "Castillo Martinez",
+        "salario_base": 2904776.25,
+        "documento": "93984404",
+        "fecha_ingreso": "2017-06-15"
+    },
+    {
+        "id": 14,
+        "nombres": "Pedro",
+        "apellidos": "Diaz Garcia",
+        "salario_base": 3202775.16,
+        "documento": "45490223",
+        "fecha_ingreso": "2018-07-31"
+    },
+    {
+        "id": 15,
+        "nombres": "Luis",
+        "apellidos": "Vargas Vargas",
+        "salario_base": 4455335.79,
+        "documento": "78052867",
+        "fecha_ingreso": "2017-02-27"
+    },
+    {
+        "id": 16,
+        "nombres": "Miguel",
+        "apellidos": "Torres Morales",
+        "salario_base": 3107687.18,
+        "documento": "34980421",
+        "fecha_ingreso": "2022-08-18"
+    },
+    {
+        "id": 17,
+        "nombres": "Camila",
+        "apellidos": "Velasquez Sanchez",
+        "salario_base": 4002623.31,
+        "documento": "34511778",
+        "fecha_ingreso": "2019-05-20"
+    },
+    {
+        "id": 18,
+        "nombres": "Andres",
+        "apellidos": "Castillo Castillo",
+        "salario_base": 4114601.66,
+        "documento": "31401014",
+        "fecha_ingreso": "2020-01-09"
+    },
+    {
+        "id": 19,
+        "nombres": "Andres",
+        "apellidos": "Navarro Ramirez",
+        "salario_base": 2639019.16,
+        "documento": "22714492",
+        "fecha_ingreso": "2025-09-22"
+    },
+    {
+        "id": 20,
+        "nombres": "Laura",
+        "apellidos": "Martinez Velasquez",
+        "salario_base": 3054209.34,
+        "documento": "46132428",
+        "fecha_ingreso": "2026-02-05"
+    },
+    {
+        "id": 21,
+        "nombres": "Natalia",
+        "apellidos": "Vargas Mendoza",
+        "salario_base": 3079229.6,
+        "documento": "69750374",
+        "fecha_ingreso": "2019-12-30"
+    },
+    {
+        "id": 22,
+        "nombres": "Alejandra",
+        "apellidos": "Morales Castillo",
+        "salario_base": 4478214.87,
+        "documento": "31031473",
+        "fecha_ingreso": "2019-08-07"
+    },
+    {
+        "id": 23,
+        "nombres": "Pedro",
+        "apellidos": "Martinez Navarro",
+        "salario_base": 4239017.06,
+        "documento": "51591683",
+        "fecha_ingreso": "2021-02-14"
+    },
+    {
+        "id": 24,
+        "nombres": "Andres",
+        "apellidos": "Castillo Vargas",
+        "salario_base": 1969166.72,
+        "documento": "25191731",
+        "fecha_ingreso": "2023-12-09"
+    },
+    {
+        "id": 25,
+        "nombres": "Andres",
+        "apellidos": "Castro Romero",
+        "salario_base": 1898491.65,
+        "documento": "54824843",
+        "fecha_ingreso": "2025-11-24"
+    }
+]
