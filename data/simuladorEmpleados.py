@@ -8,7 +8,7 @@ NOMBRES = [
 ]
 
 APELLIDOS = [
-    "Castillo", "Velasquez", "Quadros", "Martinez", "Garcia", "Hernandez",
+    "Castillo", "Velasquez", "Cuadros", "Martinez", "Garcia", "Hernandez",
     "Ramirez", "Torres", "Vargas", "Morales", "Castro", "Rojas",
     "Sanchez", "Diaz", "Romero", "Navarro", "Ruiz", "Mendoza",
 ]
